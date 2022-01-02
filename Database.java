@@ -11,9 +11,9 @@ import java.util.Properties;
 public class Database {
     
     private static final String DATABASE_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DATABASE_URL = "jdbc:mysql://sql3.freemysqlhosting.net:3306/sql3433104";
-    private static final String USERNAME = "sql3433104";
-    private static final String PASSWORD = "yr2bIzaZQf";
+    private static final String DATABASE_URL = "jdbc:mysql://<host>:3306/<db>";
+    private static final String USERNAME = "<user>";
+    private static final String PASSWORD = "<pw>";
     private Connection connection;
     private Properties properties;
     
